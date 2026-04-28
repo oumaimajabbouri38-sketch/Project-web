@@ -6,6 +6,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<header>
+    <div class="logo"><img src="FIt_with_you-removebg-preview (1).png" alt=""></div>
+
+    <nav>
+        <a href="page1.html">Home</a>
+        <a href="#">Fitness</a>
+        <a href="#">Health</a>
+        <a href="page3.html">Run</a>
+        <a href="#">Nutrition</a>
+    </nav>
+</header>
 
 <section class="container">
 
@@ -67,6 +78,32 @@ body {
   color: white;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+  background: black;
+}
+.logo img {
+  width: 150px;
+  transition: 0.4s;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
+nav  a {
+  color: #f7d306da;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: right;
+}
+nav a:hover {
+  color: #f7d306da;
+  transition: 0.3s;
+}
 .container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
