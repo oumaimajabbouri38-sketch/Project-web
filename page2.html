@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<div class="container">
+<section class="container">
 
   <div class="card">
     <img src="https://images.pexels.com/photos/16996375/pexels-photo-16996375.jpeg" alt="">
@@ -48,13 +48,13 @@
   <div class="card">
     <img src="https://images.pexels.com/photos/1484522/pexels-photo-1484522.jpeg" alt="">
     <div class="content">
-      <h2>NUTRITION</h2>
+      <h2><b><a href="page1.html" class="btn" target="_blank"><h2>NUTRITION</h2> </a></b></h2>
       <p>
        Nutrition is the process of providing your body with the food and nutrients it needs to function properly. A good nutrition plan includes a balance of proteins, carbohydrates, healthy fats, vitamins, and minerals. These nutrients help your body grow, repair tissues, produce energy, and support your immune system. Eating a variety of whole foods like fruits, vegetables, grains, and lean proteins is key to staying healthy. Proper nutrition also improves concentration, energy levels, and overall well-being.
-    </div>
+    </div> 
   </div>
 
-</div>
+</section>
 
 </body>
 </html>
@@ -62,7 +62,7 @@
 
 body {
   background: #000;
-  font-family: Arial;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin: 0;
   color: white;
 }
@@ -113,9 +113,14 @@ body {
 .content h2 {
   margin-top: 15px;
   font-size: 15px;
-  color: #a5c906;
+  color: #f1f114;
+  
 }
-
+a {
+  text-decoration: none;
+  color: #f1f114;
+  font-weight: bold;
+}
 @media (max-width: 1000px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
