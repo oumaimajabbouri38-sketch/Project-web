@@ -1,4 +1,4 @@
-# 💪 Fit With You
+# Fit With You
 
 🌐 A multi-page fitness website promoting a healthy lifestyle, built for educational purposes.
 
