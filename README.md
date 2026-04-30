@@ -14,13 +14,17 @@ This project was developed as part of a web development learning assignment to p
 ⸻
 
 📄 Pages Included
-🏠 Home Page – Main landing page with introduction and visuals
-📌 Sections Page – Overview of all topics (Fitness, Health, Run, Nutrition)
-🏋️ Fitness Page – Exercises and training content
-💚 Health Page – Wellness tips and health advice
-🏃 Run Page – Running techniques and guidance
-🍎 Nutrition Page – Healthy diet and food information
-📩 Contact Page – Contact form for communica
+- 🏠 Modern Home Page with clean design  
+
+- 🏋️ Fitness training section  
+
+- 💚 Health and wellness tips  
+
+- 🏃 Running guide section  
+
+- 🍎 Nutrition and diet information  
+
+- 📩 Contact form for communication
 
 ⸻
 
