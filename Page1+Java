@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIT WITH YOU</title>
+    <link rel="stylesheet" href="style.css">
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.pexels.com/photos/13896557/pexels-photo-13896557.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.text-border {
+    border: 2px solid #6a0dad; 
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 5rem;
+    font-style: italic;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+.highlight {
+    color: #f1f114; 
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f1f114;
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="logo">
+        <img src="FIt_with_you-removebg-preview (1).png" width="250">
+    </div>
+
+    <div class="content">
+        <div class="text-border">
+            <h2 id="titleText">
+“You don’t need <span class="highlight">motivation</span>. 
+You need <span class="highlight">discipline</span>. 
+<span class="highlight">Motivation</span> comes and goes, but <span class="highlight">discipline</span> is what gets you out of bed.”
+            </h2>
+        </div>
+
+        <a class="btn" id="startBtn">START NOW</a>
+    </div>
+</section>
+
+<script>
+const title = "FIT WITH YOU";
+let message = "Stay disciplined";
+
+console.log(title);
+console.log(message);
+
+let start = confirm("Do you want to start now?");
+if (start) {
+    console.log("User started training journey");
+} else {
+    console.log("User canceled");
+}
+
+let hour = new Date().getHours();
+
+if (hour < 12) {
+    console.log("Good morning");
+} else {
+    console.log("Good afternoon");
+}
+
+function showMessage(name) {
+    console.log("Hello " + name + "");
+}
+
+showMessage("User");
+
+const add = function(a, b) {
+    return a + b;
+};
+
+console.log(add(2, 3));
+
+let exercises = ["push-ups", "squats", "plank"];
+exercises.push("running");
+
+let titleElement = document.querySelector("#titleText");
+
+if (titleElement) {
+    titleElement.innerText = "Discipline beats motivation ";
+}
+
+let newElement = document.createElement("p");
+newElement.innerText = "New workout added ";
+document.body.appendChild(newElement);
+
+let btn = document.querySelector("#startBtn");
+
+if (btn) {
+    btn.addEventListener("click", function() {
+        alert("Let's start training ");
+    });
+}
+
+function validateForm() {
+    let input = document.querySelector("input");
+
+    if (input && input.value === "") {
+        alert("Please fill the field");
+        return false;
+    }
+
+    alert("Form submitted");
+    return true;
+}
+</script>
+
+</body>
+</html>

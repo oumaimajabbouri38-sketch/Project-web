@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page4</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: black;
+    color : white;
+}
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+  background: rgb(31, 29, 2);
+}
+.logo img {
+  width: 200px;
+  transition: 0.4s;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
+nav  a {
+  color: #fdfcfcda;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: right;
+}
+nav a:hover {
+  color: #f7d306da;
+  transition: 0.3s;
+}
+
+    .section2{
+        padding:80px 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .page4-content{
+        max-width: 1000px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        gap: 50px;
+        flex-direction: row-reverse;
+    }
+    .page4-content .text2{
+        flex:1;
+        text-align:right;
+    }
+    .page4-content .text2 h2{
+       font-size:3rem;
+       font-weight:900;
+       color:#adff2f;
+       text-transform:uppercase;
+       line-height:1.1;
+       text-align: left;
+
+    }
+    .page4-content .text2 .paragh2{
+        margin-left:auto;
+        font-size: 1.2rem;
+        line-height: 1.5;
+        color : white;
+        text-align: left;
+        max-width:450px;
+    }
+    .page4-content .text2 .learn-more{
+        display: inline-block;
+        background-color: #f1f114;
+        color: black;
+        padding: 15px 40px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: 0.3s;
+        margin-top: 20px;
+    }
+    .page4-content .text2 .learn-more:hover{
+        background-color: white;
+        transform: scale(1.05);
+    }
+    .page4-content .images{
+        flex:1;
+        display:flex;
+        justify-content:flex-start;
+        gap:20px;
+        margin-top:40px; 
+        top:60px:
+        flex-wrap: wrap; 
+    }
+    .page4-content .images img{
+        width: 300px;
+        height: 550px;
+        object-fit:cover;
+        border-radius:16px;
+        transition:0.3s;
+    }
+    .page4-content .images img:hover{
+        transform: translateY(-8px);
+        box-shadow: 0 0 25px rgba(241, 241, 20, 0.705);
+    }
+    footer{
+        text-align: center;
+        padding: 20px;
+        background: rgb(39, 34, 34);
+    }
+@media(max-width:768px){
+    .page4-content{
+        flex-direction: column;
+        text-align:center;
+    }
+    .page4-content .images{
+        margin-top: 40px;
+        flex-wrap: wrap;
+        justify-content:center;
+
+    }
+    .page4-content .images img{
+        width:80%;
+        height:300px;
+    }
+
+}
+
+</style>
+
+<body>
+      <header>
+    <div class="logo"><img src="FIt_with_you-removebg-preview (1).png" alt=""></div>
+
+    <nav>
+        <a href="page1.html">Home</a>
+        <a href="page3.html">Fitness</a>
+        <a href="page4.html">Health</a>
+        <a href="page5.html">Run</a>
+        <a href="page6.html">Nutrition</a>
+    </nav>
+</header>
+  <section class="section2">
+
+    <div class="page4-content">
+
+        <div class="images">
+            <img src="https://images.pexels.com/photos/5714336/pexels-photo-5714336.jpeg" alt="">
+            <img src="https://images.pexels.com/photos/7991944/pexels-photo-7991944.jpeg" alt="">
+        </div>
+        <div class="text2">
+                <h2 class="h2">
+                    HEALTH
+                </h2>
+                <p class="paragh2"> Health is very important for a good and happy life. It means being physically, mentally, and socially well, not just free from disease. A healthy lifestyle includes eating balanced food, drinking enough water, and doing regular exercise like walking or running. Sleep is also essential because it helps the body recover and stay energetic.Mental health matters too. Staying positive, reducing stress, and spending time with family and friends improves emotional well-being. Avoiding unhealthy habits like smoking and junk food helps keep the body strong.In short, good health comes from simple daily habits and consistency.
+            </p>
+
+            <a href="#" class="learn-more">Learn More</a>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <p>©️ 2026 Fit With You </p>
+</footer>
+
+
+</body>
+</html>
