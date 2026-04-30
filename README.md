@@ -41,11 +41,10 @@ The project was built as part of a web development learning assignment.
 
 ## 👨‍💻 Team Members
 
-- Elmeee-1  
-- Meryem  
-- Fatima Ezzahra  
-- Marouan  
-- Khadija  
+- oumaima jabbouri(oumaimajabbouri38-sketch)
+- ilyass toufalla(ilyasstoufalla)
+- Soulaimane el ouafiq(sestrongnetwork-lab)
+- ilyass sabir(ilyass648)
 
 ---
 
