@@ -23,7 +23,7 @@ The project was built as part of a web development learning assignment.
 ## 💻 Technologies Used
 
 - HTML5  
-- CSS3  
+- CSS
 - JavaScript  
 
 ---
