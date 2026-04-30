@@ -1,4 +1,4 @@
-# 🏋️‍♀️ Fit With You
+# Fit With You
 
 ## 🌐 Project Overview
 **Fit With You** is a multi-page fitness website designed to promote a healthy lifestyle.  
