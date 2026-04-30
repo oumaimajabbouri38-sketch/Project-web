@@ -1,0 +1,133 @@
+   *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+    body{
+        background: black;
+        color : white;
+    }
+    header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px ;
+  background: rgb(31, 29, 2);
+}
+.logo img {
+  width: 200px;
+  transition: 0.4s;
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
+nav  a {
+  color: #fdfcfcda;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: 0.3s;
+  text-align: right;
+}
+nav a:hover {
+  color: #f7d306da;
+  transition: 0.3s;
+}
+
+    .section3{
+        padding:80px 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .page5-content{
+        max-width: 1000px;
+        width:100%;
+        display: flex;
+        align-items:center;
+        justify-content:space-between;
+        gap: 50px;
+    }
+    .page5-content .text{
+        flex:1;
+        text-align: left;
+    }
+    .page5-content .text h2{
+        font-size: 3rem;
+        font-weight: 900;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 20px;
+        text-align: left;
+        color : yellow;
+    }
+    .page5-content .pargh{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        max-width: 600px;
+        color : white;
+        text-align: left;
+
+    }
+    .page5-content .learn-more{
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background: #f1f114;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 4px;
+        transition: 0.3s;
+        text-align: left;
+
+
+    }
+    .page5-content .learn-more:hover{
+        background: #f1f114;
+        color: white;
+        transition: 0.3s;
+    }
+    .page5-content .images{
+        flex: 1;
+        display:flex;
+        gap:0 20px;
+        flex-wrap: nowrap; 
+        margin-top: auto;
+        align-items: flex-start;
+
+    }
+    .page5-content .images img{
+        width: 300px;
+        height: 550px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition:0.3s;
+    }
+    .page5-content .images img:hover{
+        transform: scale(1.05);
+        transition:0.3s;
+    }
+    footer{
+        text-align: center;
+        padding: 20px;
+        background: rgb(39, 34, 34);
+    }
+@media(max-width:768px){
+
+    .page5-content{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .page5-content .images{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    .page5-content .images img{
+        width:80%;
+        height:300px;
+    }
+}
+
