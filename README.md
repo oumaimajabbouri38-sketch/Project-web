@@ -1,5 +1,4 @@
 # Fit With You
-
 🌐 A multi-page fitness website promoting a healthy lifestyle, built for educational purposes.
 
 ---
@@ -8,7 +7,7 @@
 Fit With You is a modern multi-page fitness website designed to encourage a healthy lifestyle.  
 It provides users with information about fitness, health, running, nutrition, and contact options.
 
-This project was developed as part of a web development learning assignment to practice **HTML, CSS, and JavaScript**.
+This project was developed as part of a web development learning assignment to practice HTML, CSS, and JavaScript.
 
 ---
 
@@ -24,11 +23,7 @@ This project was developed as part of a web development learning assignment to p
 ---
 
 ## 💻 Technologies Used
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+HTML5 • CSS3 • JavaScript • GitHub
 
 ---
 
@@ -42,6 +37,22 @@ This project was developed as part of a web development learning assignment to p
 
 ---
 
+## 🌐 Live Preview
+👉 You can view the project online (if GitHub Pages is enabled):  
+🔗 https://your-username.github.io/fit-with-you/
+
+---
+
+## ✨ Project Highlights
+- 🏠 Modern Home Page with clean design  
+- 🏋️ Fitness training section  
+- 💚 Health and wellness tips  
+- 🏃 Running guide section  
+- 🍎 Nutrition and diet information  
+- 📩 Contact form for communication  
+
+---
+
 ## 👨‍💻 Team Members
 - Oumaima Jabbouri — (oumaimajabbouri38-sketch)  
 - Ilyass Toufalla — (ilyasstoufalla)  
@@ -50,17 +61,9 @@ This project was developed as part of a web development learning assignment to p
 
 ---
 
-## 📸 Preview
-### 🏠 Home Page
-![Home](assets/home.png)
-
-### 🏋️ Fitness Page
-![Fitness](assets/fitness.png)
-
----
-
 ## 🚀 Project Purpose
 This project was created to demonstrate:
+
 - HTML, CSS, and JavaScript fundamentals  
 - Multi-page website development  
 - Team collaboration  
@@ -79,4 +82,4 @@ This project was created to demonstrate:
 ## 📌 Note
 This project is for educational purposes only.
 
-💪 Stay fit, stay healthy with **Fit With You!**
+💪 Stay fit, stay healthy with Fit With You!
