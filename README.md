@@ -5,36 +5,34 @@
 ---
 
 ## 🌟 Project Overview
-
-**Fit With You** is a modern multi-page fitness website designed to encourage a healthy lifestyle.  
+Fit With You is a modern multi-page fitness website designed to encourage a healthy lifestyle.  
 It provides users with information about fitness, health, running, nutrition, and contact options.
 
-This project was developed as part of a web development learning assignment to practice HTML, CSS, and JavaScript.
+This project was developed as part of a web development learning assignment to practice **HTML, CSS, and JavaScript**.
 
 ---
 
 ## 📄 Pages Included
-
-🏠 **Home Page** – Main landing page with introduction and visuals  
-📌 **Sections Page** – Overview of all topics (Fitness, Health, Run, Nutrition)  
-🏋️ **Fitness Page** – Exercises and training content  
-💚 **Health Page** – Wellness tips and health advice  
-🏃 **Run Page** – Running techniques and guidance  
-🍎 **Nutrition Page** – Healthy diet and food information  
-📩 **Contact Page** – Contact form for communication  
+🏠 Home Page – Main landing page with introduction and visuals  
+📌 Sections Page – Overview of all topics (Fitness, Health, Run, Nutrition)  
+🏋️ Fitness Page – Exercises and training content  
+💚 Health Page – Wellness tips and health advice  
+🏃 Run Page – Running techniques and guidance  
+🍎 Nutrition Page – Healthy diet and food information  
+📩 Contact Page – Contact form for communication  
 
 ---
 
 ## 💻 Technologies Used
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
 
-![HTML5](https://img.shields.io/badge/HTML5-%23FF5722?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%23264DE4?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DFE1?style=for-the-badge&logo=javascript&logoColor=black)
-![GitHub](https://img.shields.io/badge/GitHub-%23181717?style=for-the-badge&logo=github&logoColor=white)
-![Project Status](https://img.shields.io/badge/Status-Completed-%2300C853?style=for-the-badge)
+---
 
 ## ⚙️ Features
-
 - Multi-page website structure 🌐  
 - Clean and modern UI 🎨  
 - Smooth navigation between pages 🔗  
@@ -45,7 +43,6 @@ This project was developed as part of a web development learning assignment to p
 ---
 
 ## 👨‍💻 Team Members
-
 - Oumaima Jabbouri — (oumaimajabbouri38-sketch)  
 - Ilyass Toufalla — (ilyasstoufalla)  
 - Soulaimane El Ouafig — (sestrongnetwork-lab)  
@@ -54,16 +51,16 @@ This project was developed as part of a web development learning assignment to p
 ---
 
 ## 📸 Preview
+### 🏠 Home Page
+![Home](assets/home.png)
 
-![Home](assets/home.png)  
+### 🏋️ Fitness Page
 ![Fitness](assets/fitness.png)
 
 ---
 
 ## 🚀 Project Purpose
-
 This project was created to demonstrate:
-
 - HTML, CSS, and JavaScript fundamentals  
 - Multi-page website development  
 - Team collaboration  
@@ -72,7 +69,6 @@ This project was created to demonstrate:
 ---
 
 ## 🌟 Future Improvements
-
 - Improve mobile responsiveness 📱  
 - Add animations & transitions ✨  
 - Enhance UI design 🎨  
@@ -81,7 +77,6 @@ This project was created to demonstrate:
 ---
 
 ## 📌 Note
-
 This project is for educational purposes only.
 
-💪 *Stay fit, stay healthy with Fit With You!*
+💪 Stay fit, stay healthy with **Fit With You!**
