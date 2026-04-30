@@ -39,9 +39,7 @@ This project was developed as part of a web development learning assignment to p
 
 ---
 
-## 🌐 Live Preview
-👉 You can view the project online (if GitHub Pages is enabled):  
-🔗 https://your-username.github.io/fit-with-you/
+
 
 ---
 
