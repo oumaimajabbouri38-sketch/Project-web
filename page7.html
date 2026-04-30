@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Page</title>
+
+  <style>
+  *{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body{
+      background: black;
+      color : white;
+  }
+
+  /* HEADER */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px ;
+    background: rgb(31, 29, 2);
+  }
+
+  .logo img {
+    width: 200px;
+    transition: 0.4s;
+  }
+
+  .logo img:hover {
+    transform: scale(1.1);
+  }
+
+  nav a {
+    color: #fdfcfcda;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: #f7d306da;
+  }
+
+  /* CONTACT SECTION */
+  .section-contact{
+      padding:80px 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+  }
+
+  .contact-content{
+      max-width: 900px;
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      text-align: center;
+  }
+
+  .contact-content h2{
+      font-size:3rem;
+      font-weight:900;
+      color:#f1f114;
+      text-transform:uppercase;
+  }
+
+  ul{
+      list-style: none;
+      text-align: left;
+      background: rgb(31, 29, 2);
+      padding: 20px;
+      border-radius: 10px;
+  }
+
+  ul li{
+      margin-bottom: 10px;
+  }
+
+  form{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  input, textarea{
+      padding: 12px;
+      border: none;
+      outline: none;
+      border-radius: 5px;
+  }
+
+  textarea{
+      min-height: 120px;
+      resize: none;
+  }
+
+  button{
+      background-color: #f1f114;
+      color: black;
+      padding: 12px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+  }
+
+  button:hover{
+      background-color: white;
+      transform: scale(1.05);
+  }
+
+  footer{
+      text-align: center;
+      padding: 20px;
+      background: rgb(39, 34, 34);
+      margin-top: 30px;
+  }
+
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    <img src="FIt_with_you-removebg-preview (1).png" alt="">
+  </div>
+
+  <nav>
+    <a href="page1.html">Home</a>
+    <a href="page3.html">Fitness</a>
+    <a href="page4.html">Health</a>
+    <a href="page5.html">Run</a>
+    <a href="page6.html">Nutrition</a>
+  </nav>
+</header>
+
+<!-- CONTACT -->
+<section class="section-contact">
+  <div class="contact-content">
+
+    <h2>Contact Our Team</h2>
+
+    <h3>Our Team (4 Members)</h3>
+
+    <ul>
+      <li><strong>Oumaima Jabbouri</strong><br>Email: oumaimajabbourii@gmail.com</li>
+      <li><strong>Ilyass Sabir</strong><br>Email: ilyasssanji@gmail.com</li>
+      <li><strong>Soulaimane El Ouafiq</strong><br>Email: elouafiqsoulaimane@gmail.com</li>
+      <li><strong>Ilyass oufalla</strong><br>Email: ilayasstoufallai@gmail.com</li>
+    </ul>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Your Email">
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+
+    <p id="result"></p>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>©️ 2026 Fit With You</p>
+</footer>
+
+</body>
+</html>
