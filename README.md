@@ -42,10 +42,10 @@ Fit With You is designed to encourage users to adopt a healthy lifestyle by prov
 
 ## 👨‍💻 Team Members
 
-- Oumaima Jabbouri (@oumaimajabbouri38-sketch)  
-- Ilyass Toufalla (@ilyasstoufalla)  
-- Soulaimane El Ouafig (@sestrongnetwork-lab)  
-- Ilyass Sabir (@ilyass648)  
+- Oumaima Jabbouri (oumaimajabbouri38-sketch)  
+- Ilyass Toufalla (ilyasstoufalla)  
+- Soulaimane El Ouafig (sestrongnetwork-lab)  
+- Ilyass Sabir (ilyass648)  
 
 ---
 
