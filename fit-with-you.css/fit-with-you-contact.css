@@ -63,17 +63,6 @@
       text-transform:uppercase;
   }
 
-  ul{
-      list-style: none;
-      text-align: left;
-      background: rgb(31, 29, 2);
-      padding: 20px;
-      border-radius: 10px;
-  }
-
-  ul li{
-      margin-bottom: 10px;
-  }
 
   form{
       display: flex;
