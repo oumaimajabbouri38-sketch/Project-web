@@ -30,13 +30,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    if (visitCount === 0) {
-        console.log("User didn't start yet");
-        
-    } else {
-        console.log("User started training");
-    }
-
     for (let i = 1; i <= 3; i++) {
         console.log("Workout set " + i);
     }
